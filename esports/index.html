@@ -49,39 +49,154 @@
 
     <!-- Carrousel de imagenes-->
     <div>
-        <img class="img-fluid" src="../esports/imagenes/csgo.jpg"/>
+        <img class="img-fluid" src="/imagenes/csgo.jpg"/>
     </div>
 
     <!-- 3 Columnas-->
-    <div id="columnas">
+    <div id="columnas" class="mt-2">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
-                    <div class="card-body"> 
-                        col 1
-                    </div>   
+                    <div class="card-header">
+                        Eventos abiertos
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                CS PERU 2021
+                                <button class="btn btn-success" type="button">
+                                    Ver
+                                </button>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col">
+                                        CS PERU 2022
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-success" type="button">
+                                            Ver
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                CS PERU 2021
+                                <button class="btn btn-success" type="button">
+                                    Ver
+                                </button>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                CS PERU 2021
+                                <button class="btn btn-success" type="button">
+                                    Ver
+                                </button>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                CS PERU 2021
+                                <button class="btn btn-success" type="button">
+                                    Ver
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
-                    <div class="card-body"> 
-                        col 2
-                    </div>   
+                    <div class="card-header">
+                        Top Players
+                    </div>
+                    <div class="card-body table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Player</th>
+                                    <th>Maps</th>
+                                    <th>Rounds</th>
+                                    <th>K-D Diff</th>
+                                    <th>K/D</th>
+                                    <th>Rating</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>jsatch</td>
+                                    <td>100</td>
+                                    <td>503</td>
+                                    <td>232</td>
+                                    <td>1.13</td>
+                                    <td>1.23</td>
+                                </tr>
+                                <tr>
+                                    <td>s4w3r</td>
+                                    <td>123</td>
+                                    <td>567</td>
+                                    <td>200</td>
+                                    <td>1.2</td>
+                                    <td>1.11</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#">Anterior</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="#">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
                 <div class="card">
                     <div class="card-header">
                         Registra tu equipo
                     </div>
-                    <div class="card-body"> 
-                        col 3
-                    </div>   
+                    <div class="card-body">
+                        <form>
+                            <div>
+                                <label class="form-label" for="frm_correo">
+                                    Correo
+                                </label>
+                                <input class="form-control" type="email"
+                                    id="frm_correo"/>
+                            </div>
+                            <div>
+                                <label class="form-label" for="frm_password">
+                                    Password
+                                </label>
+                                <input class="form-control" type="password"
+                                    id="frm_password"/>
+                            </div>
+                            <div>
+                                <label class="form-label" for="frm_nombre">
+                                    Nombre del equipo
+                                </label>
+                                <input class="form-control" type="text"
+                                    id="frm_nombre"/>
+                            </div>
+                            <div class="mt-2">
+                                <button class="btn btn-primary" type="button" >
+                                    Registrar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-
         </div>
-
     </div>
 
     <!-- footer -->
